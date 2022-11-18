@@ -18,7 +18,7 @@ module "spot" {
    source = "https://github.com/diego1277/terraform-module-ec2-spot.git"
    name = "my-ec2"
    key_name = "my-key-name"
-   subnet_id = "my-subnet-id
+   subnet_id = "my-subnet-id"
    sg_ids = ["my-sg-id"]
 }
 ```
